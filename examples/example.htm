@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<title>RefleJSion - Example</title>
+		<script type="text/javascript" src="../lib/reflejsion.js"></script>
+		<script type="text/javascript">
+			/**
+			 *	Prototype OR dejavu class.
+			 */
+			var Dog = {
+				__privateAttr: 0,
+				_protectedAttr: 1,
+				publicAttr: 2,
+				
+				initialize: {
+				},
+				
+				__privateMethod: function() {
+					return __privateAttr;
+				},
+				
+				_protectedMethod: function() {
+					return _protectedAttr;
+				},
+				
+				publicMethod: function() {
+					return publicAttr;
+				}
+			};
+			
+			/**
+			 *	Results
+			 */
+			var r = Reflection;
+			
+			// TO DO
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
